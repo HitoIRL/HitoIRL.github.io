@@ -1,0 +1,90 @@
+@font-face {
+    font-family: "Roboto Mono";
+    src: url(RobotoMono-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Mono";
+    src: url(RobotoMono-Bold.ttf);
+    font-weight: bold;
+}
+
+body {
+    font-family: "Roboto Mono";
+    font-size: 1.2em;
+}
+
+.main {
+    display: flex;
+    width: min(80%, 1200px);
+    margin: auto;
+}
+
+.links {
+    min-width: 250px;
+}
+
+.placeholder {
+    max-width: 250px;
+    word-wrap: break-word;
+}
+
+.center {
+    margin: 0 30px;
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+}
+
+.block {
+    border: 1px solid #B0C2E4;
+    margin-bottom: 10px;
+}
+
+.block-alt {
+    background-color: #E6EBFF;
+    border: 1px solid #B0C2E4;
+}
+
+.label {
+    margin: 0;
+    text-align: center;
+    background-color: #E6EBFF;
+    border: 1px solid #B0C2E4;
+    padding: 5px;
+}
+
+.label-alt {
+    margin: 0;
+    text-align: center;
+    background-color: white;
+    border: 1px solid #B0C2E4;
+    padding: 5px;
+}
+
+.content {
+    padding: 20px;
+}
+
+/* html */
+a {
+    text-decoration: none;
+    color: #232B99;
+}
+
+ul {
+    padding: 0;
+    margin: 0 0 0 20px;
+}
+
+img {
+    width: 16px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #B0C2E4;
+}
